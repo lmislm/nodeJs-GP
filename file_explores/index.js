@@ -61,10 +61,13 @@ fs.readdir(process.cwd(), function (err, files) {
     }
     console.log('   select which ?');
 /*抽离一个读取stdin函数*/
+
+    var stats = [];
 function file(i) {
     var filename = files[i];
-
     fs.stat(__dirname + '/' + filename, function (err, stat) {
+        /*保存stat对象*/
+        stats[i] = stat;
         if(stat.isDirectory()){
             console.log('   '+i+'   \033[36m' + filename + '/\033[0m');
         }else {
@@ -95,10 +98,27 @@ function option(data) {
     }else {
         stdin.pause();
         /*读取文件内容*/
-        fs.readFile(__dirname + '/' + filename, 'utf-8',function (err, data) {
-            console.log('');
-            console.log('\033[90m' + data.replace(/(.*)/g, '    $1') + '\033[39m');
-        });
+        // fs.readFile(__dirname + '/' + filename, 'utf-8',function (err, data) {
+            // console.log('');
+            // console.log('\033[90m' + data.replace(/(.*)/g, '    $1') + '\033[39m');
+            /*查看目录下的目录*/
+            // console.log("答应" + Number(data));
+            if(stats[Number(data)].isDirectory()){
+                fs.readdir(__dirname + '/' + filename, function (err, files) {
+                    console.log('');
+                    console.log('   (' + files.length + '   files)');
+                    files.forEach(function (file) {
+                        console.log('   -   ' + file);
+                    });
+                    console.log('');
+                })
+            }else {
+                fs.readFile(__dirname + '/' + filename, 'utf-8', function (err, data) {
+                    console.log('');
+                    console.log('\033[90m' + data.replace(/(.*)/g, '   $1') + '\033[39m');
+                })
+            }
+        // });
     }
 }
 file(0);
