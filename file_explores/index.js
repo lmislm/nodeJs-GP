@@ -89,10 +89,16 @@ function file(i) {
     }
 /*监听 data事件*/
 function option(data) {
+    var filename = files[Number(data)];
     if(!files[Number(data)]){
-        stdout.write('  \033[31minput select!：\033[39m');
+        stdout.write('  \033[31m input select again!：\033[39m');
     }else {
         stdin.pause();
+        /*读取文件内容*/
+        fs.readFile(__dirname + '/' + filename, 'utf-8',function (err, data) {
+            console.log('');
+            console.log('\033[90m' + data.replace(/(.*)/g, '    $1') + '\033[39m');
+        });
     }
 }
 file(0);
