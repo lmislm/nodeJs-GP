@@ -51,24 +51,24 @@
 var fs = require('fs')
     , stdin = process.stdin
     , stdout = process.stdout
-
+//
 fs.readdir(process.cwd(), function (err, files) {
     /*换行*/
     console.log('');
     if (!files.length) {
         /*没有则\033[31m等显示红色文本*/
-        return console.log('    \033[31m 该目录下没有文件！\033[39m\n');
+        return console.log('    \033[31m this  dir no files！\033[39m\n');
     }
-    console.log('   选择你想看的文件夹或目录');
+    console.log('   select which ?');
 /*抽离一个读取stdin函数*/
 function file(i) {
     var filename = files[i];
 
     fs.stat(__dirname + '/' + filename, function (err, stat) {
-        if(stat.isDirectory){
-            console.log('   '+i+'   \033[36m' + filename + '/\033[39m');
+        if(stat.isDirectory()){
+            console.log('   '+i+'   \033[36m' + filename + '/\033[0m');
         }else {
-            console.log('   '+i+'   \033[90m' + filename + '\033[39m');
+            console.log('   '+i+'   \033[37m' + filename + '\033[0m');
         }
         if(++i == files.length){
             read();
@@ -78,22 +78,23 @@ function file(i) {
     });
 }
 /*获取用户输入*/
-function read() {
-    console.log('');
-    stdout.write('  \033[33m输入选择：\033[39m');
-    stdin.resume();
-    /*将字符串转为Number类型做检查*/
-    stdin.setEncoding('utf-8');
-}
+    function read() {
+        console.log('');
+        stdout.write('  \033[33minput which you select,：\033[39m');
+        stdin.resume();
+        /*将字符串转为Number类型做检查*/
+        stdin.setEncoding('utf-8');
+    }
 /*根据用户输入来处理*/
 function read() {
     stdin.on('data', option);
 }
 function option(data) {
     if(!files[Number(data)]){
-        stdout.write('  \033[31m输入选择：\033[39m');
+        stdout.write('  \033[31minput select!：\033[39m');
     }else {
         stdin.pause();
     }
 }
+file(0);
 });
