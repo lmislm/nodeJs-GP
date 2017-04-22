@@ -84,11 +84,10 @@ function file(i) {
         stdin.resume();
         /*将字符串转为Number类型做检查*/
         stdin.setEncoding('utf-8');
+        /*根据用户输入来处理*/
+        stdin.on('data', option);
     }
-/*根据用户输入来处理*/
-function read() {
-    stdin.on('data', option);
-}
+/*监听 data事件*/
 function option(data) {
     if(!files[Number(data)]){
         stdout.write('  \033[31minput select!：\033[39m');
