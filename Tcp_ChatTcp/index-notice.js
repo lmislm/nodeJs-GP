@@ -11,6 +11,11 @@ var server = net.createServer(function (conn) {
     +   '\n > please write your name and press enter:'
     );
     count ++;
+    //计数器递减
+    conn.on('close', function () {
+        count--;
+    });
+
 });
 server.listen(3000,function () {
     console.log(' \033[[96m listening on *:3000\033[39m');
