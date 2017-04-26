@@ -13,6 +13,7 @@ var server = net.createServer(function (conn) {
 server.listen(3000,function () {
     console.log('\033[96m   server listening on *:3000\033[39m');
 });
+
 /*
 * 运行$telnet 127.0.0.1 3000
 *   显示  new connection
