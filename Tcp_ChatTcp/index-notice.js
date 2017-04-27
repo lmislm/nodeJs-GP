@@ -12,8 +12,10 @@ var server = net.createServer(function (conn) {
     );
     count ++;
     //监听data事件，接收数据为Buffer
+    var str = "";
     conn.on('data',function (data) {
-        console.log(data);
+        str += data;
+        console.log(str);
     });
     //net.Stream#setEncoding设置编码
     conn.setEncoding('utf8');

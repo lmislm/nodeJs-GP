@@ -13,29 +13,33 @@ var server = net.createServer(function (conn) {
     +   '\r\n > please write your name and press enter:'
     );
     count ++;
+    var str = "";
     conn.on('data',function (data) {
         data = data.replace('\r\n','');
-        console.log(data);
+        if(data != '\n')
+            str += data;
+            console.log(str);
+
         //引入nickname变量
         var nickname;
         //删除回车符
         if(!nickname) {
             //如果用户名称已经存在
             if(users[data]) {
-                conn.write('\033[39m>   nickname already in use.try again :\033[39m');
+                conn.write('\033[39m>   nickname already in use.try again :\033[39m\r\n');
                 return;
             }else{
                 nickname = data;
                 users[nickname] = conn;
                 for(var i in users) {
-                    users[i].write('\033[90m > ' + nickname + ' joined the room\033[39m\n');
+                    users[i].write('\033[90m > ' + nickname + ' joined the room\033[39m\r\n');
                 }
             }
         }else{
         //视为聊天消息
             for(var i in users) {
                 if(i != nickname) {
-                    users[i].write('\033[96m > ' + nickname + ':\033[39m    ' + data + '\n');
+                    users[i].write('\033[96m > ' + nickname + ':\033[39m    ' + data + '\r\n');
                 }
             }
         }
