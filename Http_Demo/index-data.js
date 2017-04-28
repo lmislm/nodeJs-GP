@@ -30,5 +30,8 @@ require('http').createServer(function (req, res) {
             //使用querystring parse 方法对请求内容进行解析
             res.end('<p>Your name is <b>'+ qs.parse(body).name + '</b></p>');
         });
+    }else {
+        res.writeHead(404);
+        res.end('Not Found');
     }
 }).listen(3000);

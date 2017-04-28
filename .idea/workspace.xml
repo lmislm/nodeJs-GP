@@ -77,8 +77,8 @@
       <file leaf-file-name="index-data.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Http_Demo/index-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="340">
+              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -335,7 +335,7 @@
       <workItem from="1493165936477" duration="5072000" />
       <workItem from="1493276063168" duration="13644000" />
       <workItem from="1493370635940" duration="2132000" />
-      <workItem from="1493372859601" duration="2871000" />
+      <workItem from="1493372859601" duration="3225000" />
     </task>
     <task id="LOCAL-00001" summary="列出当前目录下文件，然后等待用户输入">
       <created>1492678098135</created>
@@ -477,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493375034164</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="添加注释">
+      <created>1493375747520</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1493375747520</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49118000" />
+    <option name="totallyTimeSpent" value="49472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,7 +556,8 @@
     <MESSAGE value="数据" />
     <MESSAGE value="添加名字说明" />
     <MESSAGE value="nothing" />
-    <option name="LAST_COMMIT_MESSAGE" value="nothing" />
+    <MESSAGE value="添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -894,8 +902,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Http_Demo/index-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="340">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
