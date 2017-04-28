@@ -12,5 +12,5 @@ require('http').createServer(function (req, res) {
         res.end('Done');
         //parse请求内容解析
         console.log('\n Got name \033[90m' + qs.parse(body).name + '\033[90m');
-    })
-})
+    });
+}).listen(3000);
