@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5add70d-c361-456d-ad74-569802c0f954" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Http_Demo/qs-example.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Http_Demo/index-data.js" afterPath="$PROJECT_DIR$/Http_Demo/index-data.js" />
     </list>
@@ -74,11 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-data.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index-data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Http_Demo/index-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+            <state relative-caret-position="25">
+              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qs-example.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Http_Demo/qs-example.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="4" column="66" lean-forward="false" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -122,6 +135,7 @@
         <option value="$PROJECT_DIR$/Http_Demo/index-server.js" />
         <option value="$PROJECT_DIR$/Http_Demo/index-http-form.js" />
         <option value="$PROJECT_DIR$/Http_Demo/index-data.js" />
+        <option value="$PROJECT_DIR$/Http_Demo/qs-example.js" />
       </list>
     </option>
   </component>
@@ -322,7 +336,7 @@
       <workItem from="1493165936477" duration="5072000" />
       <workItem from="1493276063168" duration="13644000" />
       <workItem from="1493370635940" duration="2132000" />
-      <workItem from="1493372859601" duration="1192000" />
+      <workItem from="1493372859601" duration="1870000" />
     </task>
     <task id="LOCAL-00001" summary="列出当前目录下文件，然后等待用户输入">
       <created>1492678098135</created>
@@ -429,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493372715269</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="数据">
+      <created>1493374068087</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1493374068087</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47439000" />
+    <option name="totallyTimeSpent" value="48117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +519,8 @@
     <MESSAGE value="富文本浏览器内容" />
     <MESSAGE value="输出表单" />
     <MESSAGE value="Http基本" />
-    <option name="LAST_COMMIT_MESSAGE" value="Http基本" />
+    <MESSAGE value="数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -833,8 +855,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Http_Demo/index-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        <state relative-caret-position="25">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Http_Demo/qs-example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4" column="66" lean-forward="false" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
