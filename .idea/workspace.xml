@@ -334,7 +334,7 @@
       <workItem from="1493165936477" duration="5072000" />
       <workItem from="1493276063168" duration="13644000" />
       <workItem from="1493370635940" duration="2132000" />
-      <workItem from="1493372859601" duration="1935000" />
+      <workItem from="1493372859601" duration="2000000" />
     </task>
     <task id="LOCAL-00001" summary="列出当前目录下文件，然后等待用户输入">
       <created>1492678098135</created>
@@ -455,11 +455,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493374759321</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="添加名字说明">
+      <created>1493374803752</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1493374803752</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48182000" />
+    <option name="totallyTimeSpent" value="48247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
