@@ -1,6 +1,9 @@
 /**
  * Created by Administrator on 2017/4/28.
  */
+/*
+* 运行tweet_client和tweet_server同时进行
+* */
 var http = require('http'),
     qs = require('querystring')
     //发送数据
