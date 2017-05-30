@@ -1,0 +1,7 @@
+{
+  "name": "simple-Connect-02",
+  "version": "0.0.1",
+  "dependencies": {
+    "connect": "^3.6.2"
+  }
+}
