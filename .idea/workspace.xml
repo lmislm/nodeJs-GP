@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5add70d-c361-456d-ad74-569802c0f954" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect/images/Git-command.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.0.3@finalhandler/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.0.3@finalhandler/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.1.1@ee-first/.npminstall.done" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.1.1@ee-first/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.1.1@ee-first/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.1.1@ee-first/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.1.1@ee-first/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@parseurl/.npminstall.done" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@parseurl/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@parseurl/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@parseurl/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@parseurl/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@parseurl/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@statuses/.npminstall.done" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@statuses/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@statuses/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@statuses/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@statuses/codes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@statuses/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.1.3.1@statuses/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.0.0@ms/.npminstall.done" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.0.0@ms/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.0.0@ms/license.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.0.0@ms/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.0.0@ms/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.3.0@on-finished/.npminstall.done" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.3.0@on-finished/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.3.0@on-finished/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.3.0@on-finished/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.3.0@on-finished/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.3.0@on-finished/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/.coveralls.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/.npminstall.done" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/src/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/src/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.2.6.7@debug/src/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.3.6.2@connect/.npminstall.done" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.3.6.2@connect/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.3.6.2@connect/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.3.6.2@connect/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.3.6.2@connect/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/node_modules/.3.6.2@connect/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect-02/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-Connect/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simple-Connect/website/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-Connect/index.js" afterPath="$PROJECT_DIR$/simple-Connect/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/simple-Connect/website/images/Git-command.jpg" afterPath="$PROJECT_DIR$/simple-Connect-02/website/images/Git-command.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simple-Connect-02/website/images/Git-command.jpg" afterPath="$PROJECT_DIR$/simple-Connect-02/images/Git-command.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -102,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple-Connect/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="-25">
+              <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="51" />
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
@@ -114,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-Connect-02/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
@@ -269,10 +209,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -330,8 +266,8 @@
       <recent name="E:\html_web_work\nodeJs-GP\file_explores" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\html_web_work\nodeJs-GP\simple-Connect" />
       <recent name="E:\html_web_work\nodeJs-GP\simple-Connect-02" />
+      <recent name="E:\html_web_work\nodeJs-GP\simple-Connect" />
       <recent name="E:\html_web_work\nodeJs-GP\simple-Connect\website" />
     </key>
   </component>
@@ -436,7 +372,7 @@
       <workItem from="1493372859601" duration="3408000" />
       <workItem from="1493376460249" duration="6285000" />
       <workItem from="1493427939305" duration="5209000" />
-      <workItem from="1496113935745" duration="8247000" />
+      <workItem from="1496113935745" duration="8418000" />
     </task>
     <task id="LOCAL-00001" summary="列出当前目录下文件，然后等待用户输入">
       <created>1492678098135</created>
@@ -634,11 +570,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493432676896</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="修复connect中的bug">
+      <created>1496138579249</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1496138579249</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69396000" />
+    <option name="totallyTimeSpent" value="69567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,7 +631,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重构" />
     <MESSAGE value="修复重构bug，不显示文件目录。提示换成英文，以适应Terminal" />
     <MESSAGE value="监听data事件" />
     <MESSAGE value="读取文件内容" />
@@ -713,7 +655,8 @@
     <MESSAGE value="send函数}bug" />
     <MESSAGE value="引入中间件connect" />
     <MESSAGE value="构建connect前的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="构建connect前的代码" />
+    <MESSAGE value="修复connect中的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复connect中的bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1088,16 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-Connect-02/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple-Connect/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1108,8 +1041,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-Connect/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="-25">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-Connect-02/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
